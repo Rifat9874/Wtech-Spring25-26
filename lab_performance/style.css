@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 700px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px; 
+}
+
+
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+td {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px; 
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+tr:last-of-type td {
+    flex: 1 1 100%;
+}
+
+
+input, textarea {
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+
+.submit-btn {
+    background-color: #263829; 
+    color: white;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0 auto;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #1a261c;
+}
