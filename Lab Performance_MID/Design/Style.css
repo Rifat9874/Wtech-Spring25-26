@@ -1,44 +1,51 @@
-body{
-    font-family: Arial;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: #f4f4f4;
 }
 
-.container{
+.container {
     width: 400px;
-    margin: auto;
-    margin-top: 150px;
 }
 
-fieldset{
-    border: 2px solid black;
+fieldset {
+    border: 2px solid #333;
     border-radius: 8px;
     padding: 20px;
-    background-color: white;
+    background-color: #fff;
 }
-legend{
+
+legend {
     font-weight: bold;
-
+    font-size: 1.2rem;
+    padding: 0 10px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 15px;
 }
 
-label{
+label {
+    display: block;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
-input{
+input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
-input:disabled{
+input:disabled,
+input[readonly] {
     background-color: #f9f9f9;
-}
-
-input[readonly]{
-    background-color: #f9f9f9;
+    color: #333;
 }
