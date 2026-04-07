@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Management Page</title>
+  <link rel="stylesheet" href="/Design/Style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <fieldset>
+        <legend>Product Management Page</legend>
+
+        <div class="input-group">
+          <label for="unit-price">Unit Price:</label>
+          <input type="text" id="unit-price" value="1000" readonly />
+        </div>
+
+        <div class="input-group">
+          <label for="quantity">Quantity per Day:</label>
+          <input type="number" id="quantity" min="0" placeholder="Enter quantity per day" />
+          <span id="error"></span>
+        </div>
+
+        <div class="input-group">
+          <label for="total">Total Price for 30 Days:</label>
+          <input type="text" id="total" value="0" readonly />
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/Validation.js/script.js"></script>
+</body>
+</html>
