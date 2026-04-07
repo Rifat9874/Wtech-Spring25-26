@@ -6,7 +6,11 @@ body{
     padding: 10px;
     margin: 50px;
 }
-
+p{
+    padding: 10px;
+    margin: 50px;
+}
+    
 h1{
     text-align: center;
     font-style: bold;
