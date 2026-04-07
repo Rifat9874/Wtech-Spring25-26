@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="/Lab 05/Design/design.css">
+</head>
+
+<body>
+
+    <h1>Text Analyzer Tool</h1>
+
+    <form>
+
+        <label for="text">Enter Your Text:</label>
+        <textarea id="text" placeholder="Write or paste text here..."></textarea>
+        <br><br>
+
+        <input type="button" value="Analyze Text" onclick="analyze()">
+
+        <div id="result">
+            <p>Characters: <span id="char">0</span></p>
+            <p>Words: <span id="word">0</span></p>
+            <p>Reversed Text:</p>
+            <p id="reverse"></p>
+        </div>
+
+    </form>
+
+    <script src="/Lab 05/JS/script.js"></script>
+
+</body>
+</html>
